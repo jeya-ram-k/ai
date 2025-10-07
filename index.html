@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Mini App</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 My Telegram Mini App</h1>
+            <p id="user-info">Loading user info...</p>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>Welcome!</h2>
+                <p>This is your Telegram Mini App running inside Telegram.</p>
+                
+                <div class="buttons">
+                    <button id="main-btn" class="btn primary">Main Button</button>
+                    <button id="haptic-btn" class="btn secondary">Haptic Feedback</button>
+                    <button id="close-btn" class="btn danger">Close App</button>
+                </div>
+                
+                <div class="info-section">
+                    <h3>App Info</h3>
+                    <div id="app-info">
+                        <p><strong>Platform:</strong> <span id="platform">-</span></p>
+                        <p><strong>Version:</strong> <span id="version">-</span></p>
+                        <p><strong>Theme:</strong> <span id="theme">-</span></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

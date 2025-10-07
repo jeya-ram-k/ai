@@ -1,0 +1,19 @@
+{
+  "name": "telegram-mini-app",
+  "version": "1.0.0",
+  "description": "A Telegram Mini App",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=8080 --host=0.0.0.0",
+    "build": "echo 'Build complete'",
+    "start": "live-server --port=8080 --host=0.0.0.0",
+    "deploy": "node deploy.js",
+    "tunnel": "tmole 8080"
+  },
+  "keywords": ["telegram", "mini-app", "webapp"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
